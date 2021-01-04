@@ -13,7 +13,7 @@
 // limitations under the License.
 
 android_app {
-    name: "WaveWidget",
+    name: "SakuraWidget",
     certificate: "platform",
     platform_apis: true,
     privileged: true,

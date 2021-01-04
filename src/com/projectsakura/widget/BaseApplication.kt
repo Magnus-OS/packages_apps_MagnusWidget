@@ -1,4 +1,4 @@
-package me.waveproject.widget
+package com.projectsakura.widget
 
 import android.app.Application
 

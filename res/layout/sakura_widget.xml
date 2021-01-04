@@ -26,7 +26,7 @@
         android:layout_marginStart="7dp"
         android:fontFamily="sans-serif-regular"
         android:singleLine="true"
-        android:text="NEVER BETTER"
+        android:text="FEELS LIKE SPRING"
         android:textAllCaps="true"
         android:textColor="@android:color/white"
         android:textSize="15dp" />
