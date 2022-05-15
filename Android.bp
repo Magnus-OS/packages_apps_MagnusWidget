@@ -13,7 +13,7 @@
 // limitations under the License.
 
 android_app {
-    name: "SakuraWidget",
+    name: "MagnusWidget",
     certificate: "platform",
     platform_apis: true,
     privileged: true,

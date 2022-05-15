@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
-    android:initialKeyguardLayout="@layout/sakura_widget"
-    android:initialLayout="@layout/sakura_widget"
+    android:initialKeyguardLayout="@layout/magnus_widget"
+    android:initialLayout="@layout/magnus_widget"
     android:minWidth="180dp"
     android:minHeight="40dp"
     android:previewImage="@drawable/widget_preview"

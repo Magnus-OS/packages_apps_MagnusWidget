@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/sakura_widget"
+    android:id="@+id/magnus_widget"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -27,7 +27,7 @@
         android:layout_marginStart="7dp"
         android:fontFamily="sans-serif-regular"
         android:singleLine="true"
-        android:text="FEELS LIKE SPRING"
+        android:text="GREATNESS REDEFINED!"
         android:textAllCaps="true"
         android:textColor="@android:color/white"
         android:textSize="15dp" />

@@ -1,4 +1,4 @@
-package com.projectsakura.widget
+package com.MagnusOS.widget
 
 import android.app.PendingIntent
 import android.appwidget.AppWidgetManager
@@ -11,7 +11,7 @@ import android.widget.RemoteViews
 /**
  * Implementation of App Widget functionality.
  */
-class SakuraWidgetProvider : AppWidgetProvider() {
+class MagnusWidgetProvider : AppWidgetProvider() {
     override fun onUpdate(context: Context, appWidgetManager: AppWidgetManager, appWidgetIds: IntArray) {
         // There may be multiple widgets active, so update all of them
         for (appWidgetId in appWidgetIds) {
@@ -32,7 +32,7 @@ class SakuraWidgetProvider : AppWidgetProvider() {
                             appWidgetId: Int) {
 
             // Construct the RemoteViews object
-            val views = RemoteViews(context.packageName, R.layout.sakura_widget)
+            val views = RemoteViews(context.packageName, R.layout.magnus_widget)
 
             val clockPackage = "com.android.deskclock"
             val clockClass = "com.android.deskclock.DeskClock"
@@ -44,7 +44,7 @@ class SakuraWidgetProvider : AppWidgetProvider() {
                     )
             val pendingIntent = PendingIntent.getActivity(context, 0, clockIntent, 0)
             // Open clock app on click
-            views.setOnClickPendingIntent(R.id.sakura_widget, pendingIntent)
+            views.setOnClickPendingIntent(R.id.magnus_widget, pendingIntent)
 
             // Instruct the widget manager to update the widget
             appWidgetManager.updateAppWidget(appWidgetId, views)
